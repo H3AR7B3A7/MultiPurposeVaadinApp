@@ -1,0 +1,25 @@
+#chat-view-view {
+  display: block;
+  padding: var(--lumo-space-m) var(--lumo-space-l);
+}
+
+:host {
+  display: block;
+  padding: var(--lumo-space-m) var(--lumo-space-l);
+}
+
+.chat-view h1 {
+  width: 100%;
+  margin: 0;
+  padding: 16px;
+  text-align: center;
+}
+
+.message-list {
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.message-list p{
+  width: 100%;
+}
